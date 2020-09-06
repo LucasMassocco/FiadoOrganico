@@ -20,6 +20,7 @@ public class Main {
 		
 		System.out.print("Informe seu telefone: ");
 		String fone = scanner.nextLine();
+		
 				
 		int total = consumidor.getFiado();
 		
