@@ -2,6 +2,7 @@ package fiado;
 
 public class Consumidor {
 	
+	// Atributos
 	private String nome;
 	private int[] fiados;
 	private int posicao = 0;
