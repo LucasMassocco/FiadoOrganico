@@ -6,16 +6,25 @@ public class Consumidor {
 	private String nome;
 	private int[] fiados;
 	private int posicao = 0;
+	private String fone;
 
 	
 	// construtor - prepara o objeto para mim
 	public Consumidor(String nome) {
 		this.nome = nome;
 		this.fiados = new int[10]; //inicializa com um array de 10 posições
-		
+		this.fone = fone;
 	}
 	
 	// Getter and Setter -  para resolver os Privates
+	
+	public String getFone( ) {
+		return this.fone;
+	}
+	
+	public void setfone (String fone ) {
+		this.fone = fone;
+	}
 	
 	public String getNome( ) {
 		return this.nome;

@@ -18,6 +18,9 @@ public class Main {
 		int fiado = Integer.valueOf(scanner.nextLine());
 		consumidor.registrarFiado(fiado);
 		
+		System.out.print("Informe seu telefone: ");
+		String fone = scanner.nextLine();
+				
 		int total = consumidor.getFiado();
 		
 		if (total > 100) {
